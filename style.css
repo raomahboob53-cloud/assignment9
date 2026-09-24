@@ -1,0 +1,131 @@
+.banner{
+    background-image: url(img/85efefdf7f7ae233f05274c6f271a030.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#h1{
+    color: #2F80ED;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 40px;
+}
+#h2{
+    color: #15449b;
+    text-align: center;
+  
+}
+.p{
+    color: #D9E2EC;
+    text-align: center;
+}
+.coursedetails{
+    background-color: #0B1F33;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+color:  #D9E2EC;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.left{
+    text-align: left;
+   
+}
+.right{
+    text-align: right;
+   
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.para{
+    color:#D9E2EC ;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.skills ul{
+    color: #D9E2EC ;
+   text-align: center;
+    display: grid;
+    font-size: 20px;
+   grid-template-columns: repeat(5, 1fr);
+   padding: 20px;
+   
+}
+.btn  {
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    padding: 10px 30px;
+   margin: 40px auto 50px;
+    border: 1px solid #2F80ED;
+    border-radius: 15px;
+    margin-left: 600px;
+   
+}
+.btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+/* MOBILE */
+@media (max-width: 600px) {
+
+    .banner {
+        min-height: 100vh;
+        padding: 15px;
+    }
+
+    #h1 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    #h2 {
+        font-size: 24px;
+    }
+
+    .p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+     .coursedetails {
+        margin: 20px 0;
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .left {
+        text-align: center;
+        margin: 0;
+    }
+
+    .right {
+        text-align: center;
+        margin: 0;
+    }
+
+    .skills ul {
+        grid-template-columns: 1fr;
+        font-size: 16px;
+        gap: 10px;
+        padding: 10px;
+    }
+     .para {
+        font-size: 18px;
+    }
+
+    .btn {
+        margin: 20px auto 30px;
+    }
+}
